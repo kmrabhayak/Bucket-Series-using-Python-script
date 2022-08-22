@@ -27,13 +27,13 @@ my_cursor.execute("USE testdb")
 #---------------------------Main Function------------------------------------------#
 
 def main():
-    # creating first table containing email and show names 
+    
     my_cursor.execute("CREATE TABLE users2 ( email TEXT , TVshow TEXT)")
-    #  creating second table containing showname and their status 
+
     my_cursor.execute("CREATE TABLE showstats1 ( ShowName TEXT , status TEXT)")
     mydb.commit()
     
-    n = int(input("Enter the number of entries : "))
+    n = int(input("Enter the number of emails : "))
     
    
     for i in range(n):
