@@ -1,0 +1,5 @@
+mysql-connector-python
+imdbpy
+beautifulSoup
+smtplib
+MIMEText
