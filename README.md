@@ -1,1 +1,2 @@
-# Bucket-Series-using-Python-script
+# Bucket Series using Python Script
+A Python script that asks multiple users for their email address and their favourite series or TV show, Stores them into the MySql Database table, fetches the status of series or TV shows from websites such as Imdb and Next Episode. Stores the status in another table and sends a single Email to each user consisting of their series and its next episode realease date and time.
