@@ -152,11 +152,11 @@ def clean_date(date):
                "Jul":'7',"Aug":'8',"Sep":'9',
                "Oct":'10',"Nov":'11',"Dec":'12'}
     date.pop(0)
-    # ['May','16',2018]
+    
     date[0] = date_map[date[0]]
     date[0],date[2]=date[2],date[0]
     date[1],date[2]=date[2],date[1]
-    # ['2018', '5', '16,']
+    
     date[2]=re.sub(r",","",date[2])
     new_str = "-".join(date)
     return new_str
